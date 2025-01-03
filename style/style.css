@@ -1,9 +1,37 @@
-h1{
-    background-image: url('shihabs.jpg');
-        background-size: cover; /* Makes the image cover the entire area */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-        width: 300px;
-        height: 200px; /* Set dimensions for the container */
-      
+#top-bar{
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-image: url(../style/shihabs.jpg);
+    background-position: center;
+    background-position: center;
+    padding: 200px;
+    background-size: cover;
+    border-radius: 15px;
 }
+#top-bar1{
+    color: black;
+    border: solid 2px grey;
+}
+h1{
+    text-align: center;
+    color: green;
+    
+}
+.container ,section{
+    margin: 30px;
+}
+
+section img{
+    margin: 15px;
+    border-radius: 15px;
+    width: 200px;}
+    h3{color: green;}
+    footer p{
+        text-align: center;
+        color: white;
+        background-color: green;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+    }
