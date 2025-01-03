@@ -1,0 +1,9 @@
+h1{
+    background-image: url('shihabs.jpg');
+        background-size: cover; /* Makes the image cover the entire area */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        width: 300px;
+        height: 200px; /* Set dimensions for the container */
+      
+}
