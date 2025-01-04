@@ -1,25 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&family=Flamenco:wght@300;400&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+
+body{
+    font-family: "Buenard", serif;
+}
+
 #top-bar{
     margin: 20px;
     text-align: center;
     color: white;
     background-image: url(../style/shihabs.jpg);
     background-position: center;
-    background-position: center;
     padding: 200px;
     background-size: cover;
     border-radius: 15px;
 }
+
+img:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+    opacity: 0.93; 
+    
+}
 #top-bar1{
-    color: black;
-    border: solid 2px grey;
+    border-radius: 8px;
+    padding: 0px 20px;
+    color: #4307b5;
+    border: dashed 2px #4307b5;
+}
+#top-bar1:hover{
+    color: white;
+    background-image: linear-gradient(to right, #4307b5 , #8a03b5);
 }
 h1{
     text-align: center;
-    color: green;
+    color: #4307b5;
     
+}
+h2{
+    text-align: center;
+    color: #8a03b5;
+}
+.sub-head{
+    background-image: linear-gradient(to right, #4307b5 , #8a03b5);
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+
 }
 .container ,section{
     margin: 30px;
+.blog-items{
+    background: -webkit-linear-gradient(#4307b5, #8a03b5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    border: dashed 1px #4307b5;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
 }
 
 section img{
@@ -29,8 +68,8 @@ section img{
     h3{color: green;}
     footer p{
         text-align: center;
-        color: white;
-        background-color: green;
+        color: white;        ;
+        background-image: linear-gradient(to right, #4307b5 , #8a03b5);
         padding: 10px;
         margin: 20px;
         border-radius: 10px;
