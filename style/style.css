@@ -27,10 +27,12 @@ img:hover{
     padding: 0px 20px;
     color: #4307b5;
     border: dashed 2px #4307b5;
+    
 }
 #top-bar1:hover{
     color: white;
     background-image: linear-gradient(to right, #4307b5 , #8a03b5);
+    box-shadow: 3px 3px 5px  #ae95db;
 }
 h1{
     text-align: center;
@@ -58,7 +60,7 @@ h2:hover{
 }
 .sub-head:hover{
     font-size: large;
-    box-shadow: 5px 5px 5px #4307b5;
+    box-shadow: 5px 5px 5px #ae95db;
 }
 .container ,section{
     margin: 30px;}
@@ -74,7 +76,7 @@ h2:hover{
 .blog-items:hover{
     font-size: large;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px #9a81c7;
+    box-shadow: 5px 5px 5px #ae95db;
 }
 
 section img{
