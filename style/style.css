@@ -19,7 +19,7 @@ body{
 img:hover{
     transform: scale(1.2);
     transition: ease-in-out 0.5s;
-    opacity: 0.93; 
+    opacity: 0.8; 
     
 }
 #top-bar1{
@@ -37,9 +37,17 @@ h1{
     color: #4307b5;
     
 }
+h1:hover{
+    text-transform: uppercase;
+    
+}
 h2{
     text-align: center;
     color: #8a03b5;
+}
+h2:hover{
+    text-transform: uppercase;
+    
 }
 .sub-head{
     background-image: linear-gradient(to right, #4307b5 , #8a03b5);
@@ -48,8 +56,12 @@ h2{
     border-radius: 7px;
 
 }
+.sub-head:hover{
+    font-size: large;
+    box-shadow: 5px 5px 5px #4307b5;
+}
 .container ,section{
-    margin: 30px;
+    margin: 30px;}
 .blog-items{
     background: -webkit-linear-gradient(#4307b5, #8a03b5);
   -webkit-background-clip: text;
@@ -59,6 +71,10 @@ h2{
     padding: 10px;
     
 }
+.blog-items:hover{
+    font-size: large;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #9a81c7;
 }
 
 section img{
@@ -73,5 +89,8 @@ section img{
         padding: 10px;
         margin: 20px;
         border-radius: 10px;
+    }
+    footer p:hover{
+        font-size: large;
     }
     
